@@ -3,6 +3,7 @@ import './action.css'
 import location from "../../../assets/location.png"
 import category from "../../../assets/category.png"
 import doller from "../../../assets/doller.png"
+import strain from "../../../assets/strain.png"
 const AllAction = () => {
     return (
         <div className="text-start pl-5 ">
@@ -60,8 +61,38 @@ const AllAction = () => {
                         <div className="ml-2 mt-1"><img src={doller} alt="" /></div>
                     </div>
                     <hr className="w-11/12 mx-auto py-1" />
-                    <div>
+                    <div className="mx-auto w-11/12">
+                        <div className="flex justify-between px-3">
+                            <p className="text-[#9D9D9D]">0</p>
+                            <p className="text-[#9D9D9D]">12000</p>
+                        </div>
+                        <input type="range" className="w-full " />
+                    </div>
 
+                    <div className="flex items-center px-3 pb-3 mt-5">
+                        <h1 className="font-semibold text-xl">Strain</h1>
+                        <div className="ml-2 mt-1"><img src={strain} alt="" /></div>
+                    </div>
+                    <hr className="w-11/12 mx-auto py-1" />
+                    <div>
+                        <ul className="grid grid-cols-3  h-8  text-center  border  border-gray-300 w-11/12 mx-auto">
+                            <li className="cursor-pointer border  border-[#4CAF50] text-[#4CAF50]">Indica</li>
+                            <li className="cursor-pointer border   border-[#D9D9D9] text-[#D9D9D9]">Sativa</li>
+                            <li className="cursor-pointer border   border-[#D9D9D9] text-[#D9D9D9]">Hybrid</li>
+                        </ul>
+                    </div>
+
+                    <div className="flex items-center px-3 pb-3 mt-5">
+                        <h1 className="font-semibold text-xl">Strain</h1>
+                        <div className="ml-2 mt-1"><img src={strain} alt="" /></div>
+                    </div>
+                    <hr className="w-11/12 mx-auto py-1" />
+                    <div>
+                        <ul className="grid grid-cols-3  h-8  text-center  border  border-gray-300 w-11/12 mx-auto">
+                            <li className="cursor-pointer border  border-[#4CAF50] text-[#4CAF50]">All</li>
+                            <li className="cursor-pointer border   border-[#D9D9D9] text-[#D9D9D9]">Indoor</li>
+                            <li className="cursor-pointer border   border-[#D9D9D9] text-[#D9D9D9]">Outdoor</li>
+                        </ul>
                     </div>
                 </div>
                 <div className="bg-white">
