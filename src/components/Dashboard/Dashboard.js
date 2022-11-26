@@ -21,9 +21,9 @@ const Dashboard = () => {
                 </div>
 
                 <div className="flex justify-center">
-                    <div className="drawer-side shadow-xl h-screen  ">
+                    <div className="drawer-side  h-screen  ">
                         <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-                        <ul className="menu  py-5 overflow-y-auto w-80 text-start  text-base-content bg-base-100">
+                        <ul className="menu  py-5 overflow-y-auto w-80 text-start  text-base-content">
                             {/* <!-- Sidebar content here --> */}
                             <li className="hover:bg-[#4CAF502B]">
                                 <Link to="/" className="flex  items-center gap-1 p-3 px-20">

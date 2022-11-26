@@ -4,6 +4,13 @@ import location from "../../../assets/location.png"
 import category from "../../../assets/category.png"
 import doller from "../../../assets/doller.png"
 import strain from "../../../assets/strain.png"
+import p1 from "../../../assets/p1.png"
+import p2 from "../../../assets/p2.png"
+import p3 from "../../../assets/p3.png"
+import crown from "../../../assets/crown.png"
+import bit from "../../../assets/bit.png"
+import cross from "../../../assets/cross.png"
+import pending from "../../../assets/pending.png"
 const AllAction = () => {
     return (
         <div className="text-start pl-5 ">
@@ -95,8 +102,315 @@ const AllAction = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="bg-white">
-                    gjklsjgklfj
+
+
+                {/* card components */}
+                <div className=" ">
+
+                    <div className="grid grid-cols-2 bg-white mb-5">
+                        <div className="grid grid-cols-2 gap-2 ">
+                            <div className="flex  gap-2 items-center ">
+                                <img className="" src={p1} alt="" />
+                                <div className="border-r-2 px-1">
+                                    <h2 className="text-md "> ACDC #08 Outdoor</h2>
+                                    <p className="text-md text-gray-300">The Green Bull 2 LLC</p>
+                                </div>
+                            </div>
+
+                            <div className="grid grid-cols-1 items-center border-r-2 px-1">
+                                <div>
+                                    <div className="flex justify-between px-2 text-gray-300">
+                                        <h2>THC</h2>
+                                        <h2>70%</h2>
+                                    </div>
+                                    <div class="w-11/12 h-2 bg-blue-200 rounded-full">
+                                        <div class="w-2/3 h-full text-center text-xs text-white bg-[#4CAF50] rounded-full"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className="flex justify-between px-2 text-gray-300">
+                                        <h2>CBD</h2>
+                                        <h2>1%</h2>
+                                    </div>
+                                    <div class="w-11/12 h-2 bg-blue-200 rounded-full">
+                                        <div class="w-2/12 h-full text-center text-xs text-white bg-[#4CAF50] rounded-full"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="grid grid-cols-3">
+                            <div className=" px-1 grid grid-cols-1 items-center border-r-2  ">
+                                <div className="text-center ">
+                                    <p>Asking Price</p>
+                                    <h2 className="text-xl">$600.00/lb</h2>
+                                </div>
+                            </div>
+                            <div className="grid items-center justify-center  border-r-2">
+                                <div className="flex gap-1 items-center">
+                                    <div>
+                                        <img src={crown} alt="" />
+                                    </div>
+                                    <p>Awarded</p>
+                                </div>
+                            </div>
+
+                            <div className="grid items-center justify-center  border-r-2">
+                                <button className="bg-green-400 flex items-center px-6 gap-2  text-white py-1 rounded">
+                                    <img src={bit} alt="" />
+                                    Bid</button>
+                                <button className="bg-green-100 flex items-center px-6 gap-2 border-green-400 border  text-green-400 py-1 rounded">View</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div className="grid grid-cols-2 bg-white mb-5">
+                        <div className="grid grid-cols-2 gap-2 ">
+                            <div className="flex  gap-2 items-center ">
+                                <img className="" src={p3} alt="" />
+                                <div className="border-r-2 px-1">
+                                    <h2 className="text-md "> ACDC #08 Outdoor</h2>
+                                    <p className="text-md text-gray-300">The Green Bull 2 LLC</p>
+                                </div>
+                            </div>
+
+                            <div className="grid grid-cols-1 items-center border-r-2 px-1">
+                                <div>
+                                    <div className="flex justify-between px-2 text-gray-300">
+                                        <h2>THC</h2>
+                                        <h2>70%</h2>
+                                    </div>
+                                    <div class="w-11/12 h-2 bg-blue-200 rounded-full">
+                                        <div class="w-2/3 h-full text-center text-xs text-white bg-[#4CAF50] rounded-full"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className="flex justify-between px-2 text-gray-300">
+                                        <h2>CBD</h2>
+                                        <h2>1%</h2>
+                                    </div>
+                                    <div class="w-11/12 h-2 bg-blue-200 rounded-full">
+                                        <div class="w-2/12 h-full text-center text-xs text-white bg-[#4CAF50] rounded-full"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="grid grid-cols-3">
+                            <div className=" px-1 grid grid-cols-1 items-center border-r-2  ">
+                                <div className="text-center ">
+                                    <p>Asking Price</p>
+                                    <h2 className="text-xl">$600.00/lb</h2>
+                                </div>
+                            </div>
+                            <div className="grid items-center justify-center  border-r-2">
+                                <div className="flex gap-1 items-center">
+                                    <div>  <img src={cross} alt="" /></div>
+                                    <p>Awarded</p>
+                                </div>
+                            </div>
+
+                            <div className="grid items-center justify-center  border-r-2">
+                                <button className="bg-green-400 flex items-center px-6 gap-2  text-white py-1 rounded">
+                                    <img src={bit} alt="" />
+                                    Bid</button>
+                                <button className="bg-green-100 flex items-center px-6 gap-2 border-green-400 border  text-green-400 py-1 rounded">View</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="grid grid-cols-2 bg-white mb-5">
+                        <div className="grid grid-cols-2 gap-2 ">
+                            <div className="flex  gap-2 items-center ">
+                                <img className="" src={p2} alt="" />
+                                <div className="border-r-2 px-1">
+                                    <h2 className="text-md "> ACDC #08 Outdoor</h2>
+                                    <p className="text-md text-gray-300">The Green Bull 2 LLC</p>
+                                </div>
+                            </div>
+
+                            <div className="grid grid-cols-1 items-center border-r-2 px-1">
+                                <div>
+                                    <div className="flex justify-between px-2 text-gray-300">
+                                        <h2>THC</h2>
+                                        <h2>70%</h2>
+                                    </div>
+                                    <div class="w-11/12 h-2 bg-blue-200 rounded-full">
+                                        <div class="w-2/3 h-full text-center text-xs text-white bg-[#4CAF50] rounded-full"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className="flex justify-between px-2 text-gray-300">
+                                        <h2>CBD</h2>
+                                        <h2>1%</h2>
+                                    </div>
+                                    <div class="w-11/12 h-2 bg-blue-200 rounded-full">
+                                        <div class="w-2/12 h-full text-center text-xs text-white bg-[#4CAF50] rounded-full"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="grid grid-cols-3">
+                            <div className=" px-1 grid grid-cols-1 items-center border-r-2  ">
+                                <div className="text-center ">
+                                    <p>Asking Price</p>
+                                    <h2 className="text-xl">$600.00/lb</h2>
+                                </div>
+                            </div>
+                            <div className="grid items-center justify-center  border-r-2">
+                                <div className="flex gap-1 items-center">
+                                    <div>
+                                        <img src={crown} alt="" />
+                                    </div>
+                                    <p>Awarded</p>
+                                </div>
+                            </div>
+
+                            <div className="grid items-center justify-center  border-r-2">
+                                <button className="bg-green-400 flex items-center px-6 gap-2  text-white py-1 rounded">
+                                    <img src={bit} alt="" />
+                                    Bid</button>
+                                <button className="bg-green-100 flex items-center px-6 gap-2 border-green-400 border  text-green-400 py-1 rounded">View</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="grid grid-cols-2 bg-white mb-5">
+                        <div className="grid grid-cols-2 gap-2 ">
+                            <div className="flex  gap-2 items-center ">
+                                <img className="" src={p3} alt="" />
+                                <div className="border-r-2 px-1">
+                                    <h2 className="text-md "> ACDC #08 Outdoor</h2>
+                                    <p className="text-md text-gray-300">The Green Bull 2 LLC</p>
+                                </div>
+                            </div>
+
+                            <div className="grid grid-cols-1 items-center border-r-2 px-1">
+                                <div>
+                                    <div className="flex justify-between px-2 text-gray-300">
+                                        <h2>THC</h2>
+                                        <h2>70%</h2>
+                                    </div>
+                                    <div class="w-11/12 h-2 bg-blue-200 rounded-full">
+                                        <div class="w-2/3 h-full text-center text-xs text-white bg-[#4CAF50] rounded-full"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className="flex justify-between px-2 text-gray-300">
+                                        <h2>CBD</h2>
+                                        <h2>1%</h2>
+                                    </div>
+                                    <div class="w-11/12 h-2 bg-blue-200 rounded-full">
+                                        <div class="w-2/12 h-full text-center text-xs text-white bg-[#4CAF50] rounded-full"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="grid grid-cols-3">
+                            <div className=" px-1 grid grid-cols-1 items-center border-r-2  ">
+                                <div className="text-center ">
+                                    <p>Asking Price</p>
+                                    <h2 className="text-xl">$600.00/lb</h2>
+                                </div>
+                            </div>
+                            <div className="grid items-center justify-center  border-r-2">
+                                <div className="flex gap-1 items-center">
+                                    <div><img src={cross} alt="" /></div>
+                                    <p className="text-red-400">Closed</p>
+                                </div>
+                            </div>
+
+                            <div className="grid items-center justify-center  border-r-2">
+                                <button className="bg-green-400 flex items-center px-6 gap-2  text-white py-1 rounded">
+                                    <img src={bit} alt="" />
+                                    Bid</button>
+                                <button className="bg-green-100 flex items-center px-6 gap-2 border-green-400 border  text-green-400 py-1 rounded">View</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="grid grid-cols-2 bg-white mb-5">
+                        <div className="grid grid-cols-2 gap-2 ">
+                            <div className="flex  gap-2 items-center ">
+                                <img className="" src={p1} alt="" />
+                                <div className="border-r-2 px-1">
+                                    <h2 className="text-md "> ACDC #08 Outdoor</h2>
+                                    <p className="text-md text-gray-300">The Green Bull 2 LLC</p>
+                                </div>
+                            </div>
+
+                            <div className="grid grid-cols-1 items-center border-r-2 px-1">
+                                <div>
+                                    <div className="flex justify-between px-2 text-gray-300">
+                                        <h2>THC</h2>
+                                        <h2>70%</h2>
+                                    </div>
+                                    <div class="w-11/12 h-2 bg-blue-200 rounded-full">
+                                        <div class="w-2/3 h-full text-center text-xs text-white bg-[#4CAF50] rounded-full"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className="flex justify-between px-2 text-gray-300">
+                                        <h2>CBD</h2>
+                                        <h2>1%</h2>
+                                    </div>
+                                    <div class="w-11/12 h-2 bg-blue-200 rounded-full">
+                                        <div class="w-2/12 h-full text-center text-xs text-white bg-[#4CAF50] rounded-full"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="grid grid-cols-3">
+                            <div className=" px-1 grid grid-cols-1 items-center border-r-2  ">
+                                <div className="text-center ">
+                                    <p>Asking Price</p>
+                                    <h2 className="text-xl">$600.00/lb</h2>
+                                </div>
+                            </div>
+                            <div className="grid items-center justify-center  border-r-2">
+                                <div className="flex gap-1 items-center">
+                                    <div>
+                                        <img src={pending} alt="" />
+                                    </div>
+                                    <p>Awarded</p>
+                                </div>
+                            </div>
+
+                            <div className="grid items-center justify-center  border-r-2">
+                                <button className="bg-green-400 flex items-center px-6 gap-2  text-white py-1 rounded">
+                                    <img src={bit} alt="" />
+                                    Bid</button>
+                                <button className="bg-green-100 flex items-center px-6 gap-2 border-green-400 border  text-green-400 py-1 rounded">View</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
                 </div>
             </div>
         </div>
